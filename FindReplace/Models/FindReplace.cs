@@ -19,7 +19,7 @@ namespace Replace.Models
     public string FindAndReplace()
     {
       // string sentence = Input;
-      var replacement = Input.Replace(Replace, Replacement);
+      string replacement = Input.Replace(Replace, Replacement);
       // string[] words = Input.Split(' '); 
       // foreach (string word in words)
       // {
